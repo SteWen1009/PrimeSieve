@@ -1,4 +1,4 @@
-public interface PrimeSieve {
+public interface PrimeSieveI {
     //Ueberprueft ob p eine Primzahl ist oder nicht.
     public boolean isPrime(int p);
 
