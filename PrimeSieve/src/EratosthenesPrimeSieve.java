@@ -8,9 +8,10 @@ public class EratosthenesPrimeSieve implements PrimeSieveI {
             if (!primeArray[i]) {
                 System.out.print(i + ", ");
 
-                for (int j = i * i; j <= upperLimit; j++) {
+                for (int j = i * i; j <= upperLimit; j += i) {
                     primeArray[j] = true;
                 }
+
             }
 
         }
